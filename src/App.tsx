@@ -1,5 +1,10 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from 'react-router-dom';
 import NavBar from './Components/Navbar/Navbar';
 import Home from './Pages/Home';
 import Login from './Pages/Login';
@@ -12,6 +17,7 @@ function App() {
       <Router>
         <NavBar />
         <Routes>
+          <Route path="/" element={<Navigate replace to="/home" />} />
           <Route path="/home" element={<Home />} />
           <Route path="/pokedex" element={<Pokedex />} />
           <Route path="/teambuilder" element={<Teambuilder />} />
