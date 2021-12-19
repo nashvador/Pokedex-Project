@@ -10,22 +10,22 @@ const NavBar = () => {
           <img src={pokeball} alt="pokeballImage" id="navPokeball" />
         </div>
         <li className="navBarEl">
-          <Link to="/Home" className="underline">
+          <Link to="/home" className="underline">
             Home
           </Link>
         </li>
         <li className="navBarEl">
-          <Link to="/Pokedex" className="underline">
+          <Link to="/pokedex" className="underline">
             Pokédex
           </Link>
         </li>
         <li className="navBarEl">
-          <Link to="/Teambuilder" className="underline">
+          <Link to="/teambuilder" className="underline">
             Team Builder
           </Link>
         </li>
         <li className="nav-cta">
-          <Link to="/Login" className="underline">
+          <Link to="/login" className="underline">
             Login
           </Link>
         </li>

@@ -12,10 +12,10 @@ function App() {
       <Router>
         <NavBar />
         <Routes>
-          <Route path="/Home" element={<Home />} />
-          <Route path="/Pokedex" element={<Pokedex />} />
-          <Route path="/Teambuilder" element={<Teambuilder />} />
-          <Route path="/Login" element={<Login />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/pokedex" element={<Pokedex />} />
+          <Route path="/teambuilder" element={<Teambuilder />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
       </Router>
     </div>
